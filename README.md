@@ -1,4 +1,4 @@
-# IT3040 Assignment 1 - Test Automation (Registration No: [OBE_NUMBER_EKA_DAMAANA])
+# IT3040 Assignment 1 - Test Automation (Registration No: [IT23228658])
 
 This project contains automated test scripts for the [SwiftTranslator](https://www.swifttranslator.com/) website using **Playwright**.
 
