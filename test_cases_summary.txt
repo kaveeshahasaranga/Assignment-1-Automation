@@ -1,0 +1,37 @@
+Test Case ID | Test Category | Input Data | Expected Output | Status
+--- | --- | --- | --- | ---
+Pos_Fun_0001 | Positive Functional (Simple Sentence) | mama vathura bonavaa. | මම වතුර බොනවා. | Pass
+Pos_Fun_0002 | Positive Functional (Compound Sentence) | api cricket gahanna yanavaa, oyaath enavadha? | අපි cricket ගහන්න යනවා | Pass
+Pos_Fun_0003 | Positive Functional (Complex Condition) | oya enavaanam mama balan innavaa. | ඔය එනවානම් මම බලන් ඉන්නවා. | Pass
+Pos_Fun_0004 | Positive Functional (Interrogative) | oyaata kohomadha? | ඔයාට කොහොමද? | Pass
+Pos_Fun_0005 | Positive Functional (Imperative) | vahaama enna. | වහාම එන්න. | Pass
+Pos_Fun_0006 | Positive Functional (Past Tense) | api giya sathiyee Nuwaraeliye giyaa. | අපි ගිය සතියේ ණුwඅරැලියෙ ගියා. | Pass
+Pos_Fun_0007 | Positive Functional (Present Tense) | mama dhaen vaeda karanavaa. | මම දැන් වැඩ කරනවා. | Pass
+Pos_Fun_0008 | Positive Functional (Future Tense) | mama heta enavaa. | මම හෙට එනවා. | Pass
+Pos_Fun_0009 | Positive Functional (Negative Form) | mama ehema karannee naehae. | මම එහෙම කරන්නේ නැහැ. | Pass
+Pos_Fun_0010 | Positive Functional (Polite Request) | karuNaakarala mata paena dhenna. | කරුණාකරල මට පැන දෙන්න. | Pass
+Pos_Fun_0011 | Positive Functional (Informal Phrasing) | eeyi, ooka dhiyan. | ඒයි, ඕක දියන්. | Pass
+Pos_Fun_0012 | Positive Functional (English Place Name) | mama inne Colombo vala. | මම ඉන්නේ Colombo වල. | Pass
+Pos_Fun_0013 | Positive Functional (Brand Terms) | Zoom meeting ekak thiyennee. | Zoom meeting එකක් තියෙන්නේ. | Pass
+Pos_Fun_0014 | Positive Functional (Currency Formatting) | meeke mila Rs. 1500 yi. | මේකෙ මිල Rs. 1500 යි. | Pass
+Pos_Fun_0015 | Positive Functional (Date Format) | 2026-05-21 | 2026-05-21 | Pass
+Pos_Fun_0016 | Positive Functional (Time Format) | 7.30 AM | 7.30 AM | Pass
+Pos_Fun_0017 | Positive Functional (Multi-word Expression) | poddak inna | පොඩ්ඩක් ඉන්න | Pass
+Pos_Fun_0018 | Positive Functional (Repeated Words) | tika tika | ටික ටික | Pass
+Pos_Fun_0019 | Positive Functional (Singular Usage) | mama yanna hadhannee. | මම යන්න හදන්නේ. | Pass
+Pos_Fun_0020 | Positive Functional (Plural Usage) | api yamu. | අපි යමු. | Pass
+Pos_Fun_0021 | Positive Functional (Punctuation) | oya enawada (ada)? | ඔය එනwඅඩ (අඩ)? | Pass
+Pos_Fun_0022 | Positive Functional (Line Breaks) | mama\ngedhara | මම\nගෙදර | Pass
+Pos_Fun_0023 | Positive Functional (Slang) | ela machan! | එල මචන්! | Pass
+Pos_Fun_0024 | Positive Functional (Long Input) | mama gedhara yanavaa... (repeated) | (Output not empty) | Fail (Empty/Clear)
+Neg_Fun_0001 | Negative Functional (Missing Spaces) | mamagedharayanavaa | (No Crash) | Pass
+Neg_Fun_0002 | Negative Functional (Very Long Word) | aaaa... (60 chars) | (No Crash) | Fail (Timeout/Mismatch)
+Neg_Fun_0003 | Negative Functional (Special Characters) | @#$%^&* | @#$%^&* | Pass
+Neg_Fun_0004 | Negative Functional (HTML Tags) | <b>bold</b> | <b>bold</b> | Pass
+Neg_Fun_0005 | Negative Functional (Mixed Numbers) | g3dhara | g3දර | Pass
+Neg_Fun_0006 | Negative Functional (URL Input) | https://www.google.com | හ්ට්ට්ප්ස්://www.google.com | Fail (Incorrect Transliteration)
+Neg_Fun_0007 | Negative Functional (Emoji Input) | :) | :) | Pass
+Neg_Fun_0008 | Negative Functional (Consonant Clusters) | schri | ස්ච්‍රි | Pass
+Neg_Fun_0009 | Negative Functional (Repetitive Vowels) | kwaaaaa | කwආආඅ | Pass
+Neg_Fun_0010 | Negative Functional (Zero Width Joiner) | raksha | රක්ශ | Pass
+Pos_UI_0001 | UI Scenario (Real-time Update) | 'ma' then 'ma' | 'ම' then 'මම' | Pass
